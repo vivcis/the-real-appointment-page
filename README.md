@@ -1,2 +1,1 @@
-#Master branch
-chukwuemeka-frontend
+This is master branch, pull from here first
