@@ -10,6 +10,64 @@
     background-size: cover;
 }
 
+.BodyContainer {
+    position: absolute;
+    width: 1161px;
+    height: 146px;
+    left: 335px;
+    top: 341px;
+}
+
+.BodyContainer h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 73px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Get-started {
+    margin: 10px;
+    margin-left: 29vw;
+    background: #375FED;
+    border-radius: 60px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 41px;
+    width: 262px;
+    align-content: center;
+}
+
+.BodyContainer .Get-started a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    text-decoration: none;
+}
+
+.BodyContainer .Get-started a:hover {
+    opacity: 0.5;
+}
+
+
+/* Registration page starts*/
+
+.Registration-page {
+    background: url(Rectangle\ 31.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Registration page stops*/
+
 
 /* section navigation */
 
@@ -81,6 +139,39 @@
 
 
 /* END of section navigation */
+
+
+/* Footer starts here*/
+
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(93.73deg, #3D63EC 0%, #2D57EE 100%);
+}
+
+footer .footer-item {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 10px 30px;
+}
+
+footer .footer-item a {
+    color: #f8f8f8;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 24px;
+}
+
+footer .footer-item a:hover {
+    text-decoration: underline;
+}
+
+
+/* Footer starts here*/
 
 @media only screen and (max-width:768px) {
     #nav-toggle,
