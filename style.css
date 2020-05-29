@@ -1,4 +1,4 @@
-.navbar {
+/*.navbar {
     display: grid;
     grid-auto-flow: column;
     min-height: 4em;
@@ -12,6 +12,7 @@
     grid-gap: 1em;
     padding-right: 6em;
     padding-top: 3em;
+    text-transform: uppercase;
 }
 
 .logo {

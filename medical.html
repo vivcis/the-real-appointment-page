@@ -4,10 +4,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="icons/css/font-awesome.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>NAVBAR</title>
     <link rel="stylesheet" href="style.css">
     <style>
+    *{
+      padding:0px;
+      margin:0px;
+
+    }
+    /*
     .logo>h1{
         display:grid;
         grid-auto-flow: column;
@@ -15,6 +22,82 @@
         margin-top: -100px;
 
     }
+    .checkbtn{
+      font-size:30px;
+      color:white;
+      float: right;
+      cursor:pointer;
+      display:block;
+    }
+    #check{
+      display:block;
+    }
+    */
+
+
+      .links {
+
+          display: grid;
+          grid-auto-flow: row;
+          justify-content: center;
+          grid-gap: 1em;
+          text-transform: uppercase;
+          height:100%;
+          padding-top: 500px;
+          background: blue;
+          margin-right: -30px;
+          transition: all  .5s;
+      }
+      .links>a{
+        display: block;
+        color:black;
+        text-decoration: none;
+        font-weight: bold;
+        margin-top:-400px;
+        line-height:20;
+        transition: all .5s;
+      }
+      .links>a:hover{
+        color:#4B91F0;
+
+
+      }
+      .logo>img {
+      width:5em;
+      padding:0.5em;
+      }
+      .logo>h1 {
+          color:black;
+          margin-left: 100px;
+          margin-top: -80px;
+          font-size:27px;
+          color:white;
+
+
+      }
+      .navbar {
+          position:static;
+          display: block;
+          height: 4em;
+          background-color: #4B91F0;
+          padding-bottom: 30px;
+      }
+      .checkbtn{
+        display:block;
+        font-size:30px;
+        color:white;
+        margin-top:-60px;
+        cursor:pointer;
+       margin-left:  450px;
+
+      }
+      #check :checked ~links{
+        left:0
+
+      }
+
+      }
+
     </style>
 </head>
 
@@ -23,7 +106,7 @@
     <div class="navbar">
 
         <div class="logo">
-            <img src="logo.png" alt="logo" style="width:7em;padding:0.5em;">
+            <img src="logo.png" alt="logo">
 
             <h1>Fast Health<br> Solution </h1>
 
@@ -39,7 +122,11 @@
 
             <a href="#">LOGIN</a>
         </div>
+
     </div>
+    <input type = "checkbox" id = "check">
+    <label for = "check" class="checkbtn">
+      <i class = "fa fa-bars"></i></label>
 </body>
 
 </html>
