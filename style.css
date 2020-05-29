@@ -14,7 +14,9 @@
     padding-top: 3em;
 }
 
-.logo {}
+.logo {
+
+}
 
 .links>a {
     text-decoration: none;
@@ -23,7 +25,5 @@
 }
 
 .logo>h1 {
-    display: grid;
-    grid-auto-flow: column;
-    color: white;
+    color:white;
 }
