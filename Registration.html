@@ -8,85 +8,11 @@
     <link rel="icon" href="images/logo.svg">
     <script src="https://kit.fontawesome.com/4ea96ace4f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style/style.css" type="text/css">
-    <style>
-    .main{
-        background-color: #375FED;
-        height: 601px;
-        opacity: 0.8;
-        width: 601px;
-        float:right;
-    }
-.getstarted>h2{
-  font-size:40px;
-  font-family:monospace;
-  color: white;
-  padding-top: 80px;
-  text-align: center;
 
-}
-
-.getstarted>p{
-  font-size: 16px;
-  font-family: sans-serif;
-  color: white;
-  text-align: center;
-
-}
- label{
-
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 1.0;
-  color: white;
-  margin-left: 1px;
-  word-spacing: 5px;
-}
-.input-group1 >label{
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 3.0;
-  color: white;
-  margin-left: 1px;
-  word-spacing: 3px;
-}
-
-.input-control{
-  border: 3px solid white;
-  border-radius: 20px;
-  height:45px;
-  margin-top: 80px;
-  color: green;
-  text-decoration: none;
-
-}
-.input{
-  border: 3px solid white;
-  border-radius: 15px;
-  height:45px;
-  width: 90px;
-  color: #375FED;
-  box-sizing: border-box;
-  margin-top: 20px;
-  margin-left:  90px;
-}
-.inside{
-  display: grid;
-  grid-auto-flow: column;
-
-}
-form{
-  display: grid;
-  justify-content: center;
-  margin-left:  50px;
-
-}
-
-    </style>
 </head>
 
 <body class="Registration-page" onresize="checkSize()">
     <div class="container">
-
         <!-- section navigation -->
         <nav class="nav-bar">
             <span id="nav-toggle">
@@ -105,7 +31,6 @@ form{
             </ul>
         </nav>
         <!-- END of section navigation -->
-
         <div class="main">
           <div class="inside">
           <div class= "emptypart">
@@ -115,12 +40,7 @@ form{
               <p>Fast Health solutions...Health is wealth</p>
           </div>
 </div>
-
-
             <!--This will contain the registration page body-->
-
-
-
             <form action="form">
               <div class="input-group">
                 <label>Name</label>
@@ -130,25 +50,22 @@ form{
                 <label>Email </label>
                 <input type="email" name="" class="input-control" >
               </div>
-
               <div class="input-group1">
-                <label>  Password</label>
+                <label id="create">  Pword</label>
                 <input type="password" name="" class="input-control">
               </div>
               <input type="submit" value = "sign up" class="input">
-
                 <!--This will contain the registration form-->
             </form>
-
         </div>
-
     </div>
-    
+    <footer>
+        <!--Footer here-->
+        <div class="footer-item">
 
+            <a href="contact us">Contact Us</a>
+        </div>
+    </footer>
     <script src="script/script.js"></script>
 </body>
-
-
-
-
 </html>
