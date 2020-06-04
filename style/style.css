@@ -24,8 +24,7 @@
     font-size: 60px;
     line-height: 73px;
     text-align: center;
-  }
-    color: #FFFFF
+}
 
 .Get-started {
     margin: 10px;
@@ -38,6 +37,7 @@
     width: 262px;
     align-content: center;
 }
+
 .BodyContainer .Get-started a {
     font-family: Montserrat;
     font-style: normal;
@@ -49,6 +49,7 @@
     order: 0;
     text-decoration: none;
 }
+
 .BodyContainer .Get-started a:hover {
     opacity: 0.5;
 }
@@ -152,6 +153,7 @@ margin-bottom: 100px;
     position: relative;
     border-bottom: 3px solid white;
 }
+
 #nav-toggle {
     width: 20px;
     height: 20px;
@@ -161,10 +163,12 @@ margin-bottom: 100px;
     /* transform: translate(0, -50%); */
     display: none;
 }
+
 .toggle {
     font-size: 20px;
     color: #fff;
 }
+
 .nav-logo {
     display: flex;
     align-items: center;
@@ -176,23 +180,28 @@ margin-bottom: 100px;
     width: 59px;
     height: 58px;
 }
+
 #nav-header {
     color: #fff;
     padding-left: 10px;
 }
+
 .nav-list {
     list-style-type: none;
     display: flex;
 }
+
 .nav-list-item {
     /* padding: 0 10px; */
 }
+
 .nav-list-item:nth-child(1),
 .nav-list-item:nth-child(2),
 .nav-list-item:nth-child(3),
 .nav-list-item:nth-child(4) {
     border-right: 2px solid #fff;
 }
+
 .nav-list-link {
     display: block;
     color: #fff;
@@ -203,8 +212,13 @@ margin-bottom: 100px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
 }
+
+
 /* END of section navigation */
+
+
 /* Footer starts here*/
+
 footer {
     position: relative;
     bottom: 0;
@@ -212,25 +226,30 @@ footer {
     width: 100%;
     height: 70px;
     background: linear-gradient(93.73deg, #3D63EC 0%, #2D57EE 100%);
-    margin-top:600px
-
+    margin-top: 600px
 }
+
 footer .footer-item {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     margin: 10px 30px;
 }
+
 footer .footer-item a {
     color: #f8f8f8;
     text-decoration: none;
     margin-right: 20px;
     font-size: 24px;
 }
+
 footer .footer-item a:hover {
     text-decoration: underline;
 }
+
+
 /* Footer starts here*/
+
 @media only screen and (max-width:768px) {
     #nav-toggle,
     .nav-bar {
