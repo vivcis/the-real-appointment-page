@@ -56,7 +56,7 @@
 
 
 /* Registration page starts*/
-
+/*
 .Registration-page {
     background: url(Rectangle\ 31.png);
     background-repeat: no-repeat;
@@ -138,6 +138,7 @@ margin-right:5px;
 
 margin-bottom: 100px;
 }
+*/
 /* Registration page stops*/
 
 
@@ -172,7 +173,7 @@ margin-bottom: 100px;
 .nav-logo {
     display: flex;
     align-items: center;
-    border-right: 5px solid white;
+  
     padding-right: 60px;
 }
 
