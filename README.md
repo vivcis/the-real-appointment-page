@@ -29,7 +29,7 @@ git add .
 git commit _m "commit message"
 ```
 ```bash
-git pull upstream develop
+git pull upstream dev
 ```
 Make Sure there is no conflict
 
