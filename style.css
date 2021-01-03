@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans:600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-family: Arial, Helvetica, Montserrat, sans-serif;
+  color: #000;
+  overflow-x: hidden;
+}
+.nav .navbar-expand-md .navbar-dark ul {
+  background: linear-gradient(90.47deg, #3d63ec 0%, #2d57ee 100%) !important;
+}
+.top-section {
+  background: linear-gradient(90.47deg, #3d63ec 0%, #2d57ee 100%);
+  z-index: 1;
+  /* margin-left: 180px;*/
+}
+.nav .nav-flex ul {
+  padding: 10px;
+  margin: 10px;
+}
+/*styling the notification bell*/
+i.notif {
+  position: relative;
+  display: block;
+  height: 50px;
+  width: 50px;
+  /*background: url('http://i.imgur.com/evpC48G.png');*/
+  background-size: contain;
+  text-decoration: none;
+  color: #fff;
+}
+.num {
+  position: absolute;
+  right: 7px;
+  top: 12px;
+  font-size: 12px;
+  color: red;
+}
+
+/* styling the side nav bar */
+ .bg-image {
+  background-image: url("images/nurse.jpg");
+  background-position: left;
+  background-size: 130% 100%;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
+/*.sidenav {
+  height: 945px;
+  width: 270px;
+  position: absolute;
+  z-index: 1;
+  top: 70px;
+  left: 0;
+  background-color: #e5e5e5;
+  overflow: hidden;
+  padding-top: 50px;
+  transition: all .5s ease;
+}
+.sidenav ul a{
+  display: block;
+  line-height: 55px;
+  box-sizing: border-box;
+  transition: .4s;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  color: linear-gradient(90.47deg, #3d63ec 0%, #2d57ee 100%);
+  display: block;
+}*/
+.sidebar{
+  position: absolute;
+  width: 270px;
+  left: -270px;
+  height: 160%;
+  transition: all .5s ease;
+  line-height: 55px;
+  margin-top: -25px;
+}
+.sidebar a{
+  display: block;
+  height: 65px;
+  width: 100%;
+  color: white;
+  line-height: 65px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  /*border-bottom: 1px solid black;*/
+  /*border-top: 1px solid rgba(255,255,255,.1);*/
+  border-left: 5px solid transparent;
+  transition: all .5s ease;
+}
+ a.active,a:hover{
+  /*border-left: 5px solid #b93632;*/
+  color: #b93632;
+}
+.sidebar a i{
+  font-size: 23px;
+  margin-right: 16px;
+  line-height: 55px;
+}
+.sidebar a span{
+  letter-spacing: 1px;
+}
+#check{
+  display: none;
+}
+label #btn,label #cancel{
+  position: absolute;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #262626;
+  margin: 20px 20px;
+  font-size: 29px;
+  background: linear-gradient(90.47deg, #3d63ec 0%, #2d57ee 100%);
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  line-height: 45px;
+  transition: all .5s ease;
+}
+label #cancel{
+  opacity: 0;
+  visibility: hidden;
+  margin-top: 10px;
+}
+#check:checked ~ .sidebar{
+  left: 0;
+}
+#check:checked ~ label #btn{
+  margin-left: 245px;
+  opacity: 0;
+  visibility: hidden;
+}
+#check:checked ~ label #cancel{
+  margin-left: 268px;
+  margin-top: -9px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  line-height: 35px;
+  opacity: 1;
+  visibility: visible;
+}
+@media(max-width : 860px){
+  .sidebar{
+    height: auto;
+    width: 70px;
+    left: 0;
+    margin: 100px 0;
+  }
+  span{
+    position: absolute;
+    margin-left: 23px;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .sidebar a{
+    height: 60px;
+  }
+  .sidebar a i{
+    margin-left: -10px;
+    line-height: 55px;
+  }
+  a:hover {
+    width: 200px;
+    background: inherit;
+  }
+  .sidebar a:hover span{
+    opacity: 1;
+    visibility: visible;
+  }
+}
+   /*  end of sidebar*/
+.main {
+  margin-top: 10px;
+  margin-left: 280px;
+  font-size: 28px;
+  padding: 0px 5px;
+  overflow-x: show;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+/*ends here*/
+.row {
+  display: center;
+}
+.badge-light {
+  color: #2e56e9;
+}
+h4 {
+  font-weight: bold;
+}
+h6 {
+  font-size: 13px;
+  color: #565656;
+}
+h6 div a:visited {
+  text-decoration: none;
+}
+/*styling first section*/
+div .container .wrapper {
+  display: flex;
+  margin-right: 90px;
+  justify-content: space-around;
+  font-size: 5px;
+}
+/* ends here*/
+div .pics {
+  position: relative;
+  bottom: 65px;
+  padding: 5px;
+}
+div .view-cancel {
+  position: relative;
+  top: -12px;
+  margin-right: 11px;
+  margin-bottom: 10px;
+}
+
+div h6 a {
+  text-decoration: none;
+}
+
+.mcol {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0.5rem;
+}
